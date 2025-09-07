@@ -1,26 +1,35 @@
-# Flutter / Dart
+# Flutter/Dart
 .dart_tool/
 .packages
-.flutter-plugins
-.flutter-plugins-dependencies
-.melos_tool/
-pubspec.lock
-
-# Builds
+.pub-cache/
 build/
+coverage/
+flutter_*.png
+generated_plugin_registrant.dart
+
+# Android
+**/local.properties
+**/.gradle/
+**/gradle-wrapper.jar
+**/captures/
+**/.cxx/
+**/app/profile/
+**/app/release/
+**/keystore.properties
+
+# iOS (на майбутнє, якщо додамо)
 ios/Pods/
-android/.gradle/
-android/.idea/
-android/local.properties
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
 
 # IDE
-.idea/
 .vscode/
+.idea/
 *.iml
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Windows artifacts
-windows/flutter/ephemeral/

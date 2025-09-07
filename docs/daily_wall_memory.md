@@ -124,3 +124,20 @@ flutter run -d windows -t .\lib\main.dart
 - Миниатюры изображений — `contain`, полноэкранный просмотр — оверлей.
 
 **Конец memory-блока.
+Daily Wall — Memory Block: Android bring-up (2025-09-07)
+
+Що зроблено
+
+Мінімальний запуск на Android (емулятор). Код не змінювався.
+
+Перевірено збірку/debug-run, апка стартує, hot reload доступний (епізодичний обрив VM Service можливий на деяких AVD).
+
+Версії / середовище
+
+Flutter 3.35.3, Dart 3.9.2 (stable).
+
+Android SDK: встановлено Android SDK Platform 33, NDK r27.0.12077973, CMake 3.22.1 (auto-install під час першого запуску).
+
+Емулятор: sdk gphone64 x86_64 (API 33/Google APIs).
+
+Поточний applicationId: com.example.daily_wall.
