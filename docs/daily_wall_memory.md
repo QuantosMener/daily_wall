@@ -141,3 +141,13 @@ Android SDK: встановлено Android SDK Platform 33, NDK r27.0.12077973,
 Емулятор: sdk gphone64 x86_64 (API 33/Google APIs).
 
 Поточний applicationId: com.example.daily_wall.
+
+Daily Wall — Memory Block: Android bring-up + configs (2025-09-07)
+
+Що зроблено: Android bring-up; applicationId=com.quantos.dailywall; compileSdk/targetSdk=36; Java/Kotlin=17; маніфести оновлено; APK запускається на емуляторі.
+
+Файли: android/app/build.gradle.kts, android/app/src/*/AndroidManifest.xml, android/app/src/main/kotlin/com/quantos/dailywall/MainActivity.kt.
+
+Команди: flutter clean && flutter pub get && flutter run -d <deviceId> -t lib/main.dart.
+
+Нотатки: попередження про Java 8 — від сторонніх залежностей, не критично.
