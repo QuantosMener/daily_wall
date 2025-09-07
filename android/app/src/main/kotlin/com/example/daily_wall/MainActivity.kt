@@ -1,4 +1,4 @@
-package com.example.daily_wall
+package com.quantos.dailywall
 
 import io.flutter.embedding.android.FlutterActivity
 
